@@ -9,6 +9,8 @@ namespace FitnessApplicationFrontEnd
             InitializeComponent();
 
             MainPage = new LoginPage();
+
+
         }
     }
 }
