@@ -12,9 +12,9 @@ public partial class LoginPage : ContentPage
         Console.WriteLine("Hello World");
     }
 
-    private void OnGoogleSignUpClicked(object sender, EventArgs e)
+    private async void OnGoogleSignUpClicked(object sender, EventArgs e)
     {
-        
-        Console.WriteLine("Hello World");
+
+        await Navigation.PushAsync(new CreateAccountPage());
     }
 }

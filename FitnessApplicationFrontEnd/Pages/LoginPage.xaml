@@ -7,14 +7,14 @@
         <Label Text="Welcome to Fake FitBod"
                FontSize="24"
                HorizontalOptions="Center" />
-        <Button Text="Sign in with Google"
+        <Button Text="Log In"
                 FontSize="18"
                 BackgroundColor="#4285F4"
                 TextColor="White"
                 CornerRadius="10"
                 HeightRequest="50"
                 Clicked="OnGoogleSignInClicked" />
-        <Button Text="Sign up with Google"
+        <Button Text="Create Account"
                 FontSize="18"
                 BackgroundColor="#34A853"
                 TextColor="White"

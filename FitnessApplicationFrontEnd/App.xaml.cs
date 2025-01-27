@@ -8,7 +8,7 @@ namespace FitnessApplicationFrontEnd
         {
             InitializeComponent();
 
-            MainPage = new LoginPage();
+            MainPage = new NavigationPage(new LoginPage());
 
 
         }
